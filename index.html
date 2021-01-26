@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculadora</h1>
+  <form action="" name=""  class="borda">
+    <input id="display" style="text-align: right;" type="text" value="0">
+        <table>
+          <tr>
+            <td><input id="btnClear" class="botaoC" type="button" value="C" onclick="btnClick(this)"></td>
+          </tr>
+        <tr>
+          <td><input id="btn7" class="num" type="button" value="7" onclick="btnClick(this)"></td>
+          <td><input id="btn8" class="num" type="button" value="8" onclick="btnClick(this)"></td>
+          <td><input id="btn9" class="num" type="button" value="9" onclick="btnClick(this)"></td>
+          <td><input id="btnSoma" class="operador" type="button" value="+" onclick="btnClick(this)"></td>
+        </tr>
+        <tr>  
+          <td><input id="btn4" class="num" type="button" value="4" onclick="btnClick(this)"></td>
+          <td><input id="btn5" class="num" type="button" value="5" onclick="btnClick(this)"></td>
+          <td><input id="btn6" class="num" type="button" value="6" onclick="btnClick(this)"></td>
+          <td><input id="btnSub" class="operador" type="button" value="-" onclick="btnClick(this)"></td>
+        </tr>  
+        <tr> 
+          <td><input id="btn1" class="num" type="button" value="1" onclick="btnClick(this)"></td>
+          <td><input id="btn2" class="num" type="button" value="2" onclick="btnClick(this)"></td>
+          <td><input id="btn3" class="num" type="button" value="3" onclick="btnClick(this)"></td>
+          <td><input id="btnMul" class="operador" type="button" value="*" onclick="btnClick(this)"></td>
+        </tr>  
+        <tr>
+          <td><input id="btn0" class="num" type="button" value="0" onclick="btnClick(this)"></td>
+          <td><input id="btnPonto" class="num" type="button" value="." onclick="btnClick(this)"></td>
+          <td><input id="btnIgual" class="operador" type="button" value="=" onclick="btnClick(this)"></td>
+          <td><input id="btnDiv" class="operador" type="button" value="/" onclick="btnClick(this)"></td>
+        </tr>    
+        </table>
+  </form> 
+</body>
+<script src="calculator.js"></script>
+</html>
